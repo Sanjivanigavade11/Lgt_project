@@ -6,7 +6,7 @@ def alarm():
  
         # Wait for one seconds
         time.sleep(1)
- 
+ #for 1 second or multiple second we can use sleep command
         # Get current time
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
  
